@@ -48,6 +48,8 @@ const SigninPage = () => {
     } else {
       setError("Enter correct Username and Password!");
       setIsSigninOk(false);
+      setUserName("");
+      setPassword("");
     }
   };
 

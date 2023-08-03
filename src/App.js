@@ -17,7 +17,7 @@ export default function App() {
   };
   let component = (
     <div className="container">
-      <h1>Home Page</h1>
+      <h1 className="heading">Sign In / Sign Up</h1>
       <div className="button-container">
         <button className="button button-primary" onClick={handleSignin}>Sign In</button>
         <button className="button button-secondary" onClick={handleSignup}>Sign Up</button>
